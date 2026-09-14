@@ -1,0 +1,13 @@
+path: E:/muncipal.ai/ai-services/final_dataset
+
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 4
+
+names:
+  0: pothole
+  1: garbage_dumping
+  2: damaged_streetlight
+  3: drainage_overflow

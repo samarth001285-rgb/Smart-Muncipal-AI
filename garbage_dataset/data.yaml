@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['human', 'trash']
+
+roboflow:
+  workspace: yolov8-project-o2dt3
+  project: illegal-dumping-detection-dd6wk-3t0jf
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yolov8-project-o2dt3/illegal-dumping-detection-dd6wk-3t0jf/dataset/1

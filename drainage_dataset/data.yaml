@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['closed manhole-not overflowing-', 'drainage overflow-repair-', 'fake manhole', 'open drainage-not overflowing-', 'open drainage-overflowing-', 'open manhole-not overflowing-']
+
+roboflow:
+  workspace: khz-b8wss
+  project: drain-overflow-qy66e
+  version: 1
+  license: MIT
+  url: https://universe.roboflow.com/khz-b8wss/drain-overflow-qy66e/dataset/1

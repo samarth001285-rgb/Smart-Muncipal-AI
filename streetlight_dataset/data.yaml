@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['street light']
+
+roboflow:
+  workspace: jiawei-zhou-e7d1v
+  project: street-light-pkozz
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/jiawei-zhou-e7d1v/street-light-pkozz/dataset/1

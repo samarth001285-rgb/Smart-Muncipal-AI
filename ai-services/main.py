@@ -94,7 +94,7 @@ async def predict(file: UploadFile = File(...)):
 
     results = model(
         image,
-        device=0,
+        device="cpu",
         conf=0.5,
         verbose=False
     )

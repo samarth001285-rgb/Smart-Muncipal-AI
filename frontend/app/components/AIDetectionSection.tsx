@@ -1,7 +1,7 @@
 "use client";
 import { useState, useRef, useCallback } from "react";
 
-const API_BASE = "http://127.0.0.1:8000";
+const API_BASE = "https://smart-muncipal-ai-3.onrender.com";
 
 type DetectionResult = {
   success: boolean;
